@@ -23,7 +23,7 @@ Run the project :
 --
 You will only have to run it in dev mode.
 ```
-npm run start
+npm start
 ```
 The open your browser on `http://localhost:3000`
 
