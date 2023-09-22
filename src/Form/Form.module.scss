@@ -1,0 +1,59 @@
+@import '../global.scss';
+
+.RegisterForm {
+    max-width: 600px;
+    .formRow {
+        width: 100%;
+        margin: 10px 0;
+        .forgotPassword {
+            display: block;
+            text-align: right;
+            text-decoration: underline;
+            color: $text-color;
+            width: 100%;
+        }
+    }
+    .btnContainer {
+        padding: 20px 0;
+        .submitBtn {
+            width: 100%;
+            height: 42px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            color: $white;
+            background-color: $primary;
+            border: none;
+            border-radius: 4px;
+            text-transform: uppercase;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all .3s ease-out;
+            &:hover{
+                background-color: $primary-dark;
+            }
+        }
+    }
+}
+
+.RegisterForm .form-item {
+    margin-bottom: 15px;
+}
+
+.RegisterForm .form-item label {
+    display: block;
+}
+
+.RegisterForm .form-item,.has-error input {
+    border-color: red;
+}
+
+.RegisterForm .form-item .error-message {
+    display: block;
+}
+.RegisterForm .form-item .error-message .error-item {
+    color: red;
+    font-size: 10px;
+    display: block;
+}

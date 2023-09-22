@@ -1,0 +1,34 @@
+.tab-container {
+    max-width: 100%;
+    width: 600px;
+    min-width: 600px;
+    border: 1px #7d7d7d solid;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 500px;
+    background-color: #fefefe;
+}
+
+.tab-header {
+    display: flex;
+    height: 50px;
+}
+.tab-header-item {
+    flex: 1;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+
+.tab-header-item.active {
+    background-color: #fefefe;
+}
+
+.tab-content {
+    padding: 40px;
+}
